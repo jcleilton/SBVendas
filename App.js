@@ -15,35 +15,35 @@ const MenuRoutes = {
   },
   Clientes: {
       name: 'Clientes',
-      screen: props => <Menu option={0} />,
+      screen: props => <Menu option={1} />,
       navigationOptions: {
           title: 'Clientes'
       }
   },
   Visitas: {
       name: 'Visitas',
-      screen: props => <Menu option={0} />,
+      screen: props => <Menu option={2} />,
       navigationOptions: {
           title: 'Visitas'
       }
   },
   Pedidos: {
       name: 'Pedidos',
-      screen: props => <Menu option={0} />,
+      screen: props => <Menu option={3} />,
       navigationOptions: {
           title: 'Pedidos'
       }
   },
   Retorno: {
     name: 'Retorno',
-    screen: props => <Menu option={0} />,
+    screen: props => <Menu option={4} />,
     navigationOptions: {
         title: 'Retorno'
     }
   },
   Sair: {
     name: 'Sair',
-    screen: props => <Menu option={0} />,
+    screen: props => <Menu option={5} />,
     navigationOptions: {
         title: 'Sair'
     }
